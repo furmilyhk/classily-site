@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>Privacy Policy — Classily</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.65;max-width:720px;margin:0 auto;padding:32px 20px;color:#1c1c1e;background:#fff}h1{font-size:1.7rem;margin-bottom:4px}h2{font-size:1.1rem;margin-top:28px}.updated{color:#6b7280;font-size:.9rem;margin-top:0}a{color:#2563eb}ul{padding-left:20px}</style></head><body>
-<h1>Privacy Policy</h1><p class="updated">Last updated: 24 August 2026</p>
+<h1>Privacy Policy</h1><p class="updated">Last updated: 25 August 2026</p>
 <p>Classily is a study app for students. There is no account and no login. We operate no user database, and your notes belong to you.</p>
 <h2>What we collect</h2>
-<p><strong>Nothing.</strong> The app has no analytics, no advertising, no tracking, and no sign-up. We cannot see your notes, and we do not know who you are.</p>
+<p><strong>No personal information.</strong> There is no sign-up, no analytics, no advertising and no tracking. We do not know who you are and we cannot read your notes. The only thing we hold is a per-installation counter used to apply the AI fair-use limit, described below.</p>
 <h2>Where your work lives</h2>
 <ul>
 <li>Your timetable, lesson notes, photos, PDFs, homework and recordings are stored on your device.</li>
@@ -22,7 +22,15 @@
 <li>When you have a photo read for text (OCR), that image is sent for processing.</li>
 <li>Everything else — searching, markup, timetable, homework — happens on your device and sends nothing.</li>
 </ul>
-<p>We do not store your questions, your notes or your photos on our side. They are passed through to generate that one answer and are not retained by us, are not linked to any identity, and are never sold or used for advertising. Google processes the request under its API terms as a service provider.</p>
+<p>We do not store your questions, your notes or your photos. They pass through our endpoint to generate that one answer and are not kept, are not linked to any identity, and are never sold or used for advertising. Google processes the request as our service provider under its API terms, which allow it to log requests for a limited period solely to detect abuse of its service. Google does not use them to improve its products.</p>
+<h2>Fair-use counting</h2>
+<p>So that one person cannot exhaust the AI service for everyone, we count how many AI requests each installation makes per day. To do that we store, on our server:</p>
+<ul>
+<li>A random identifier created when you install the app. It is generated on your device, is not derived from your phone, is not an advertising identifier, and is not connected to your name, email or any account. Deleting the app discards it.</li>
+<li>The network address the request came from.</li>
+<li>How many AI requests and photo reads that installation made on a given day.</li>
+</ul>
+<p>That is all — never the content of a question, a note or a photo. These counters exist only to apply the daily limit and to stop automated abuse of the service. They are not used for advertising, analytics or tracking, are never sold, and are not combined with anything else to identify you.</p>
 <p>If you would rather nothing left your device at all, simply do not use the AI features. Everything else in the app keeps working.</p>
 <h2>Camera, photos and microphone</h2>
 <p>The camera is used only when you photograph a board, a worksheet or a timetable. The photo library is read only for images you pick. The microphone is used only while you are recording a lesson. None of these are accessed in the background.</p>
